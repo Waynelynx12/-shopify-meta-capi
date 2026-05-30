@@ -1,0 +1,32 @@
+{
+  "name": "shopify-meta-capi",
+  "version": "1.0.0",
+  "description": "Server-side Meta Conversions API integration for Shopify. Bypasses ad blockers, deduplicates pixel events, and pushes accurate purchase data directly to Meta for better ROAS.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "keywords": [
+    "shopify",
+    "meta",
+    "conversions-api",
+    "capi",
+    "facebook-pixel",
+    "server-side-tracking",
+    "ecommerce"
+  ],
+  "author": "Wayne Lynx",
+  "license": "MIT"
+}
